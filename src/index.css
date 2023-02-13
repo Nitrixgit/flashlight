@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Satoshi-Regular", sans-serif;
+  line-height: 18px;
+  color: #303030;
+  background-color: #FDFDFD;
+}
+
+
+
+
+@media (max-width: 1919px) {
+  .flashlight_1920px {
+    display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  .flashlight_1366px {
+    display: none;
+  }
+}
+@media (max-width: 1365px) {
+  .flashlight_1366px {
+    display: none;
+  }
+}
